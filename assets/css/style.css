@@ -1,0 +1,386 @@
+*, html, body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: var(--hitam);
+}
+
+:root{
+    --hitam: #023535
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.nav{
+    /* background-color: aqua; */
+    width: auto;
+    height: 80px;
+    display: flex;
+}
+
+
+.jname{
+    color: white;
+    display: flex;
+    margin-left: 100px;
+    width: 80px;
+    height: 80px;
+    font-size: 35px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu{
+    margin-left: auto;
+    margin-right: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Home{
+    background: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    border: none;
+    margin: 0 13px;
+    width: 80px;
+    height: 50px;
+}
+
+.Home:hover{
+    color: #008F8C;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+.container{
+    height: 90vh;
+    width: auto;
+}
+
+.fotoMe{
+    position: absolute;
+    z-index: -1;
+    left: 860px;
+    width: 550px;
+    height: 700px;
+    border: 10px;
+}
+
+.profile{
+    color: white;
+    font-size: 30px;
+   padding: 200px 100px;
+}
+
+.profile p{
+    font-size: 18px;
+}
+
+.profile-btn{
+    margin: 18px 0;
+    padding-bottom: 5px;
+    background: none;
+    color: #91BDD9;
+    width: 130px;
+    height: 40px;
+    cursor: pointer;
+    border: 1;
+    border-color: #91BDD9;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.profile-btn:hover{
+    color: white;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+}
+
+.bilah{
+    margin: 5px 0;
+    width: 55px;
+    height: 3px;
+    background-color: #91BDD9;
+}
+
+/* .about{
+    color: white;
+    position: absolute;
+    bottom: 100px;
+    margin-left: 500px;
+    text-align: right;
+}
+
+.about h2{
+    color: #91BDD9;
+}
+
+.about p{
+    width: 400px;
+} */
+
+.container-a{
+    background-color: #012525;
+    height: 50vh;
+    width: auto;
+}
+
+.judulC{
+    padding: 20px 0;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.judulC h1{
+    color: #91BDD9;
+}
+
+.container-all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container-box{
+    width: 200px;
+    height: 250px;
+    margin: 30px 20px;
+    background-color: #011f1f;
+    color: white;
+    text-align: center;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.box{
+    padding: 20px 0;
+}
+
+.box p{
+    font-size: 18px;
+}
+
+.icon{
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 70px;
+    color: rgb(223, 222, 222);
+}
+
+.iconSkl{
+    padding: 10px 0;
+     display:inline-block;
+    align-items: center;
+    justify-content: center; 
+    font-size: 150px;
+    color: rgba(223, 222, 222, 0.5);
+}
+
+.box h3{
+    color: rgba(255, 255, 255, 0.795);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+
+.bolaS{
+    margin-top: 90px;
+    margin-left: 100px;
+}
+
+.container-project{
+    padding: 30px;
+    background-color: #023535;
+    height: 90vh;
+    width: auto;
+}
+
+.container-project h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:  white;
+    font-size: 30px;
+}
+
+.aturan{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerCard{
+    margin-top: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    margin: 40px;
+    background-color: #022b2b;
+    width: 250px;
+    height: 350px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.card .iconCard{
+    image-resolution: 200;
+    width: 250px;
+    height: 160px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.card h2{
+    padding-top: 5px;
+    text-align: center;
+    color: white;
+}
+
+.card .para{
+    width: 250px;
+    height: 95px;
+}
+
+.card p{
+    padding: 5px;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
+
+.tombol{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.tombol button{
+    width: 100px;
+    height: 50px;
+    color: #91BDD9;
+    background: none;
+    border-color: #91BDD9;
+    cursor: pointer;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.tombol button:hover{
+    color: white;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+.footer{
+    background-color: #012525;
+    height: 20vh;
+    width: auto;
+}
+
+.containerIcon{
+    padding-top: 30px;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inc{
+    margin: 10px;
+}
+
+.containerBilah{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bilah1{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 5px;
+    background-color: white;
+}
+
+.isi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.isi p{
+    margin: 10px;
+    color: white;
+}
+
+.hp{
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.hp i{
+    color: white;
+    font-size: 35px;
+}
+
+.btnA{
+    width: 150px;
+    height: 30px;
+    border-radius: 15px;
+    border-color: #023535;
+    border-style: outset;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

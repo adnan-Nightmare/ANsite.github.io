@@ -1,0 +1,200 @@
+.container-bilah{
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    height: 130vh;
+    width: auto;
+}
+
+.bulet{
+    position: absolute;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: #023535;
+    border: 5px;
+    border-style: solid;
+    border-color: white;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.lurus{
+    width: 5px;
+    height: 110vh;
+    background-color: white;
+}
+
+.lurus2{
+    position: absolute;
+    margin-top: 865px;
+    width: 4px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.788);
+}
+
+.lurus3{
+    position: absolute;
+    margin-top: 915px;
+    width: 3px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.541);
+}
+
+.lurus4{
+    position: absolute;
+    margin-top: 945px;
+    width: 2px;
+    height: 20px;
+    background-color: rgba(255, 255, 255, 0.329);
+}
+
+.samping{
+    margin-top: 200px;
+    margin-right: 300px;
+    position: absolute;
+    background-color: white;
+    width: 300px;
+    height: 5px;
+}
+
+.samping2{
+    margin-top: 500px;
+    margin-left: 300px;
+    position: absolute;
+    background-color: white;
+    width: 300px;
+    height: 5px;
+}
+
+.samping3{
+    margin-top: 800px;
+    margin-right: 300px;
+    position: absolute;
+    background-color: white;
+    width: 300px;
+    height: 5px;
+}
+
+.p1{
+    margin-top: 100px;
+    margin-right: 800px;
+}
+
+.p2{
+    margin-top: 400px;
+    margin-left: 700px;
+}
+
+.p3{
+    margin-top: 700px;
+    margin-right: 800px;
+}
+
+.kotak{
+    
+    position: absolute;
+    background-color: #012525;
+    border-radius: 5px;
+    width: 300px;
+    height: 200px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.kotak h2{
+    padding: 5px;
+    text-align: center;
+    color: white;
+    background-color: #011a1a9d;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.kotak p{
+    padding: 10px;
+    color: white;
+}
+
+.posisi1{
+    margin-top: 193px;
+    margin-right: 500px;
+}
+
+.posisi2{
+    margin-top: 493px;
+    margin-left: 398px;
+}
+
+.posisi3{
+    margin-top: 793px;
+    margin-right: 500px;
+}
+
+.lingkaranPer{
+    position: absolute;
+    
+    width: 70px;
+    height: 70px;
+    border: 5px;
+    border-style: solid;
+    
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.lingkaranPer h1{
+    margin-top: 20px;
+    color: #a8340ade;
+}
+
+.h{
+    background-color: #d96a4179;
+    color: #a8340ade;
+}
+
+.c{
+    background-color: #0fc2bf75;
+    color: #0FC2C0;
+}
+
+.c h1{
+    color: #06c4c0;
+}
+
+.j{
+    background-color: #f2c33580;
+    color: #F2C335;
+}
+
+.j h1{
+    color: #F2C335;
+}
+
+.n{
+    background-color: #0cf25d69;
+    color: #0CF25D;
+}
+
+.n h1{
+    color: #0CF25D;
+}
+
+.p{
+    background-color: #a7bc0988;
+    color: #A6BC09;
+}
+
+.p h1{
+    color: #c9e403;
+}

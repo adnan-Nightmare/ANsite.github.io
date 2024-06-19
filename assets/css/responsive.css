@@ -1,0 +1,81 @@
+@media only screen and (max-width: 900px) {
+    .menu{
+        margin-left: auto;
+        margin-right: 5px;
+    }
+
+    .Home{
+        font-size: 15px;
+        margin: 0 1px;
+    }
+
+    .jname{
+        margin-left: 20px;
+        font-size: 25px;
+    }
+
+    .container{
+        height: 80vh;
+    }
+
+    .fotoMe{
+        margin-top: 145px;
+        left: 90px;
+        width: 280px;
+        height: 380px;
+    }
+
+    .profile{
+        font-size: 15px;
+        padding: 150px 40px;
+    }
+
+    .container-a{
+        height: 30vh;
+        width: auto;
+    }
+
+    .judulC{
+        padding: 10px 0;
+        font-size: 13px;
+    }
+
+    .container-all{
+        display: flex;
+        justify-content: center;
+    }
+
+    .icon{
+        font-size: 40px;
+        padding-top: 30px;
+        padding-bottom: 15px;
+    }
+
+    .box{
+        padding: 10px 0;
+    }
+
+    .container-box{
+        width: 100px;
+        height: 130px;
+        margin: 10px 5px;
+    }
+
+    .iconSkl{
+        font-size: 70px;
+    }
+
+    .box h3{
+        font-size: 20px;
+    }
+
+    .bolaS{
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+
+    .container-project{
+        width: auto;
+        height: 95vh;
+    }
+}

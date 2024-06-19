@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <style>
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .container-slide {
+        margin: 50px;
+      }
+
+      .containerSub {
+        width: 800px;
+        height: 500px;
+        background-color: tomato;
+      }
+
+      .kotak {
+        background-color: aqua;
+        width: 200px;
+        height: 300px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="container-slide swiper">
+        <div class="containerSub swiper-wrapper">
+          <div class="kotak swiper-slide">a</div>
+          <div class="kotak swiper-slide">b</div>
+          <div class="kotak swiper-slide">c</div>
+          <div class="kotak swiper-slide">d</div>
+          <div class="kotak swiper-slide">e</div>
+          <div class="kotak swiper-slide">f</div>
+          <div class="kotak swiper-slide">g</div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".container-slide", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
+</html>
